@@ -1,0 +1,8 @@
+'''
+[1] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.
+    Deep Residual Learning for Image Recognition
+    https://arxiv.org/abs/1512.03385v1
+    
+Create resnet_224.py file in this folder from https://github.com/jiweibo/ImageNet/blob/master/models/resnet.py
+And also set "pretrained=False".
+'''
