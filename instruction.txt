@@ -1,0 +1,8 @@
+
+train_annotator_vis.py is for preparing the weak annotator
+use command "CUDA_VISIBLE_DEVICES=0 python train_annotator_vis.py"
+
+After running it, move the weak annotator you want from folder 'model_vis_backup' to 'model_vis' and rename it 'model.pth'.
+
+train_vis.py is for training the model
+use command "CUDA_VISIBLE_DEVICES=0 python train_vis.py"
