@@ -1,9 +1,0 @@
-"""resnet in pytorch
-
-[1] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.
-    Deep Residual Learning for Image Recognition
-    https://arxiv.org/abs/1512.03385v1
-
-Create resnet_32.py file in this folder from https://github.com/weiaicunzai/pytorch-cifar100/blob/master/models/resnet.py
-
-"""

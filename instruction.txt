@@ -1,3 +1,9 @@
+The code base for weak annotation learning (ICML 2021 under review).
+
+It is based on Pytorch version == 1.4.0 (Python 3.8.2)
+
+
+First create a model_vis, model_vis_backup, log folder in the dictionary of with_DA and without_DA.
 
 train_annotator_vis.py is for preparing the weak annotator
 use command "CUDA_VISIBLE_DEVICES=0 python train_annotator_vis.py"
@@ -6,3 +12,8 @@ After running it, move the weak annotator you want from folder 'model_vis_backup
 
 train_vis.py is for training the model
 use command "CUDA_VISIBLE_DEVICES=0 python train_vis.py"
+
+Current batchsize settings are for GPU memory >=20G, if you have smaller memory, you may need to change the batchsize settings or it may out of memory sometimes. And currently we do not support running on multi-GPU setting.
+
+
+
